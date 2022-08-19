@@ -32,7 +32,7 @@ import Header2 from "./Header2.svelte";
 	<p>
 		The extension could not be installed on Firefox version 103.0.2,
 		but future versions of Firefox may support it.
-		<i>Quick Links</i> is cannot be installed on Safari;
+		<i>Quick Links</i> cannot be installed on Safari;
 		there are no plans to change this.
 	</p>
 </div>
