@@ -8,6 +8,7 @@
 <ol>
     <ContentsItem tag="installation" text="Installation"></ContentsItem>
     <ContentsItem tag="making-a-new-link" text="Making a new link"></ContentsItem>
+    <ContentsItem tag="using-a-link" text="Using a link"></ContentsItem>
 </ol>
 
 <style>

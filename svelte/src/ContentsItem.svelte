@@ -12,4 +12,7 @@
 </li>
 
 <style>
+	p {
+		font-size: 17px;
+	}
 </style>

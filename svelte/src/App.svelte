@@ -64,6 +64,28 @@ import Contents from "./Contents.svelte";
 		Generally, the popup will pre-fill the URL field with the URL of the current page.
 		So you only have to fill out the Quick Link field.
 	</p>
+	<Header2 tag="using-a-link" text="Using a link"></Header2>
+	<p>
+		To use a link, just go to the URL bar and type
+		the word "go" followed by a single space, as seen below.
+	</p>
+	<img src="img/go.png" alt="URL bar with the word &quot;go&quot; and then a space.">
+	<p>
+		As soon as you type the space, the Quick Links input context will be displayed.
+		This lets you know that you are entering a Quick Link and not a URL or a
+		web search query.
+	</p>
+	<img src="img/quick_links.png" alt="URL bar with Quick Links input context.">
+	<p>
+		Then we just enter the Quick Link keyword that we registered earlier.
+		If we wanted to use the link created in the <a href="#making-a-new-link">Making a new link</a> section,
+		we would type "coolwebsite", as seen below.
+	</p>
+	<img src="img/coolwebsite.png" alt="URL bar with Quick Links input context. &quot;coolwebsite&quot; has been input.">
+	<p>
+		Pressing the enter key will submit the link.
+		In this case, we will be directed to "https://example.com".
+	</p>
 </div>
 
 <style>
