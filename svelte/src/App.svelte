@@ -4,6 +4,16 @@
 
 <div class="centraltext">
 	<Header1 tag="quick-links" text="Quick Links"></Header1>
+	<p>
+		The <i>Quick Links</i> browser extension allows you to rapidly access
+		previously visited webpages without needing to dig through your
+		browser history or bookmarks bar.
+	</p>
+	<p>
+		All you have to do is come up
+		with a memorable name for a webpage you want to visit again,
+		then later type that name into your URL bar to zip back to that page!
+	</p>
 </div>
 
 <style>
