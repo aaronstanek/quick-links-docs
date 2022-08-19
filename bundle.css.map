@@ -2,11 +2,13 @@
   "version": 3,
   "file": "bundle.css",
   "sources": [
-    "svelte\\App.svelte"
+    "svelte\\App.svelte",
+    "svelte\\Header1.svelte"
   ],
   "sourcesContent": [
-    "<script lang=\"ts\">export let name;\r\n</script>\n\n<main>\n\t<h1>Hello {name}!</h1>\n\t<p>Visit the <a href=\"https://svelte.dev/tutorial\">Svelte tutorial</a> to learn how to build Svelte apps.</p>\n</main>\n\n<style>\nmain {\n\ttext-align: center;\n\tpadding: 1em;\n\tmax-width: 240px;\n\tmargin: 0 auto;\n}\n\nh1 {\n\tcolor: #ff3e00;\n\ttext-transform: uppercase;\n\tfont-size: 4em;\n\tfont-weight: 100;\n}\n\n@media (min-width: 640px) {\n\tmain {\n\t\tmax-width: none;\n\t}\n}\n</style>"
+    "<script lang=\"ts\">import Header1 from \"./Header1.svelte\";\r\n</script>\n\n<div class=\"centraltext\">\n\t<Header1 tag=\"quick-links\" text=\"Quick Links\"></Header1>\n</div>\n\n<style>\n.centraltext {\n\tborder-style: solid;\n\tborder-width: 1px;\n\tborder-color: black;\n\tborder-radius: 30px;\n\tmargin-top: 10px;\n\tmargin-bottom: 10px;\n\tmargin-left: auto;\n\tmargin-right: auto;\n\twidth: 61.8%;\n\tpadding: 20px;\n}\n</style>",
+    "<script lang=\"ts\">export let tag;\r\nexport let text;\r\n</script>\r\n\r\n<h1 id={tag}>{text}</h1>\r\n\r\n<hr>\r\n\r\n<style>\r\nhr {\r\n    border: 0px;\r\n    height: 0.5px;\r\n    background-color: black;\r\n}\r\n</style>"
   ],
   "names": [],
-  "mappings": "AASA,IAAI,aAAC,CAAC,AACL,UAAU,CAAE,MAAM,CAClB,OAAO,CAAE,GAAG,CACZ,SAAS,CAAE,KAAK,CAChB,MAAM,CAAE,CAAC,CAAC,IAAI,AACf,CAAC,AAED,EAAE,aAAC,CAAC,AACH,KAAK,CAAE,OAAO,CACd,cAAc,CAAE,SAAS,CACzB,SAAS,CAAE,GAAG,CACd,WAAW,CAAE,GAAG,AACjB,CAAC,AAED,MAAM,AAAC,YAAY,KAAK,CAAC,AAAC,CAAC,AAC1B,IAAI,aAAC,CAAC,AACL,SAAS,CAAE,IAAI,AAChB,CAAC,AACF,CAAC"
+  "mappings": "AAQA,YAAY,cAAC,CAAC,AACb,YAAY,CAAE,KAAK,CACnB,YAAY,CAAE,GAAG,CACjB,YAAY,CAAE,KAAK,CACnB,aAAa,CAAE,IAAI,CACnB,UAAU,CAAE,IAAI,CAChB,aAAa,CAAE,IAAI,CACnB,WAAW,CAAE,IAAI,CACjB,YAAY,CAAE,IAAI,CAClB,KAAK,CAAE,KAAK,CACZ,OAAO,CAAE,IAAI,AACd,CAAC;ACVD,EAAE,cAAC,CAAC,AACA,MAAM,CAAE,GAAG,CACX,MAAM,CAAE,KAAK,CACb,gBAAgB,CAAE,KAAK,AAC3B,CAAC"
 }
