@@ -3,9 +3,13 @@
     export let text: string;
 </script>
 
-<br>
-
-<h2 id={tag}>{text}</h2>
+<li>
+    <p>
+        <a href={"#" + tag}>
+            {text}
+        </a>
+    </p>
+</li>
 
 <style>
 </style>

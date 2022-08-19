@@ -1,6 +1,7 @@
 <script lang="ts">
-	import Header1 from "./Header1.svelte";
+import Header1 from "./Header1.svelte";
 import Header2 from "./Header2.svelte";
+import Contents from "./Contents.svelte";
 </script>
 
 <div class="centraltext">
@@ -15,6 +16,7 @@ import Header2 from "./Header2.svelte";
 		with a memorable name for a webpage you want to visit again,
 		then later type that name into your URL bar to zip back to that page!
 	</p>
+	<Contents></Contents>
 	<Header2 tag="installation" text="Installation"></Header2>
 	<p>
 		<a href="https://chrome.google.com/webstore/detail/quick-links/mjajgkekioonpenodhpklcfpcdnonmcm">
