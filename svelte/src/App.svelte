@@ -35,6 +35,33 @@ import Header2 from "./Header2.svelte";
 		<i>Quick Links</i> cannot be installed on Safari;
 		there are no plans to change this.
 	</p>
+	<Header2 tag="making-a-new-link" text="Making a new link"></Header2>
+	<p>
+		In the upper right of your browser, you'll see a puzzle piece icon.
+		If you click it and select "Quick Links", a popup similar to the one
+		depicted below will appear.
+	</p>
+	<img src="img/popup_empty.png" alt="The Quick Links popup menu. The input fields are empty.">
+	<p>
+		Tip: for faster access in the future, you can pin the <i>Quick Links</i>
+		icon to the toolbar using the pin icon in the puzzle piece icon's dropdown menu.
+	</p>
+	<p>
+		To create a new Quick Link,
+		just fill in the URL and Quick Link fields,
+		then press CREATE. It's that easy!
+	</p>
+	<img src="img/popup_example.png" alt="The Quick Links popup menu. The URL field contains the string &quot;https://example.com&quot; and the Quick Link field contains the string &quot;coolwebsite&quot;.">
+	<p>
+		The example above will associate the keyword "coolwebsite"
+		with the webpage "https://example.com".
+		So now you can go to "https://example.com" by typing "coolwebsite"
+		into your URL bar.
+	</p>
+	<p>
+		Generally, the popup will pre-fill the URL field with the URL of the current page.
+		So you only have to fill out the Quick Link field.
+	</p>
 </div>
 
 <style>
@@ -53,5 +80,12 @@ import Header2 from "./Header2.svelte";
 	}
 	p {
 		font-size: 17px;
+	}
+	img {
+		width: 100%;
+		border-style: solid;
+		border-width: 1px;
+		border-color: black;
+		border-radius: 20px;
 	}
 </style>
