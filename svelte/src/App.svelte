@@ -40,7 +40,7 @@ import Contents from "./Contents.svelte";
 	<Header2 tag="making-a-new-link" text="Making a new link"></Header2>
 	<p>
 		In the upper right of your browser, you'll see a puzzle piece icon.
-		If you click it and select "Quick Links", a popup similar to the one
+		If you click it and select "Quick Links", a popup like the one
 		depicted below will appear.
 	</p>
 	<img src="img/popup_empty.png" alt="The Quick Links popup menu. The input fields are empty.">
@@ -61,8 +61,8 @@ import Contents from "./Contents.svelte";
 		into your URL bar.
 	</p>
 	<p>
-		Generally, the popup will pre-fill the URL field with the URL of the current page.
-		So you only have to fill out the Quick Link field.
+		The popup will pre-fill the URL field with the URL of the current page.
+		So, you only have to fill out the Quick Link field.
 	</p>
 	<Header2 tag="using-a-link" text="Using a link"></Header2>
 	<p>
