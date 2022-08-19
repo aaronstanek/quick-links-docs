@@ -16,7 +16,10 @@
 		margin-bottom: 10px;
 		margin-left: auto;
 		margin-right: auto;
-		width: 61.8%;
+		width: 550px;
 		padding: 20px;
+	}
+	p {
+		font-size: 17px;
 	}
 </style>

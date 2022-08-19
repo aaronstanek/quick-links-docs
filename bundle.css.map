@@ -6,7 +6,7 @@
     "svelte\\Header1.svelte"
   ],
   "sourcesContent": [
-    "<script lang=\"ts\">import Header1 from \"./Header1.svelte\";\r\n</script>\n\n<div class=\"centraltext\">\n\t<Header1 tag=\"quick-links\" text=\"Quick Links\"></Header1>\n</div>\n\n<style>\n.centraltext {\n\tborder-style: solid;\n\tborder-width: 1px;\n\tborder-color: black;\n\tborder-radius: 30px;\n\tmargin-top: 10px;\n\tmargin-bottom: 10px;\n\tmargin-left: auto;\n\tmargin-right: auto;\n\twidth: 61.8%;\n\tpadding: 20px;\n}\n</style>",
+    "<script lang=\"ts\">import Header1 from \"./Header1.svelte\";\r\n</script>\n\n<div class=\"centraltext\">\n\t<Header1 tag=\"quick-links\" text=\"Quick Links\"></Header1>\n</div>\n\n<style>\n.centraltext {\n\tborder-style: solid;\n\tborder-width: 1px;\n\tborder-color: black;\n\tborder-radius: 30px;\n\tmargin-top: 10px;\n\tmargin-bottom: 10px;\n\tmargin-left: auto;\n\tmargin-right: auto;\n\twidth: 550px;\n\tpadding: 20px;\n}\np {\n\tfont-size: 17px;\n}\n</style>",
     "<script lang=\"ts\">export let tag;\r\nexport let text;\r\n</script>\r\n\r\n<h1 id={tag}>{text}</h1>\r\n\r\n<hr>\r\n\r\n<style>\r\nhr {\r\n    border: 0px;\r\n    height: 0.5px;\r\n    background-color: black;\r\n}\r\n</style>"
   ],
   "names": [],
