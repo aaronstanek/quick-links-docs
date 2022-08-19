@@ -2,6 +2,7 @@
 import Header1 from "./Header1.svelte";
 import Header2 from "./Header2.svelte";
 import Contents from "./Contents.svelte";
+import InlineCode from "./InlineCode.svelte";
 </script>
 
 <div class="centraltext">
@@ -32,7 +33,7 @@ import Contents from "./Contents.svelte";
 		that support Chrome extensions.
 	</p>
 	<p>
-		The extension could not be installed on Firefox version 103.0.2,
+		The extension could not be installed on Firefox version <InlineCode text="103.0.2"></InlineCode>,
 		but future versions of Firefox may support it.
 		<i>Quick Links</i> cannot be installed on Safari;
 		there are no plans to change this.
@@ -55,10 +56,10 @@ import Contents from "./Contents.svelte";
 	</p>
 	<img src="img/popup_example.png" alt="The Quick Links popup menu. The URL field contains the string &quot;https://example.com&quot; and the Quick Link field contains the string &quot;coolwebsite&quot;.">
 	<p>
-		The example above will associate the keyword "coolwebsite"
-		with the webpage "https://example.com".
-		So now you can go to "https://example.com" by typing "coolwebsite"
-		into your URL bar.
+		The example above will associate the keyword <InlineCode text="coolwebsite"></InlineCode>
+		with the webpage <InlineCode text="https://example.com"></InlineCode>.
+		So now you can go to <InlineCode text="https://example.com"></InlineCode>
+		by typing <InlineCode text="coolwebsite"></InlineCode> into your URL bar.
 	</p>
 	<p>
 		The popup will pre-fill the URL field with the URL of the current page.
@@ -67,7 +68,7 @@ import Contents from "./Contents.svelte";
 	<Header2 tag="using-a-link" text="Using a link"></Header2>
 	<p>
 		To use a link, just go to the URL bar and type
-		the word "go" followed by a single space, as seen below.
+		the word <InlineCode text="go"></InlineCode> followed by a single space, as seen below.
 	</p>
 	<img src="img/go.png" alt="URL bar with the word &quot;go&quot; and then a space.">
 	<p>
@@ -79,12 +80,12 @@ import Contents from "./Contents.svelte";
 	<p>
 		Then we just enter the Quick Link keyword that we registered earlier.
 		If we wanted to use the link created in the <a href="#making-a-new-link">Making a new link</a> section,
-		we would type "coolwebsite", as seen below.
+		we would type <InlineCode text="coolwebsite"></InlineCode>, as seen below.
 	</p>
 	<img src="img/coolwebsite.png" alt="URL bar with Quick Links input context. &quot;coolwebsite&quot; has been input.">
 	<p>
 		Pressing the enter key will submit the link.
-		In this case, we will be directed to "https://example.com".
+		In this case, we will be directed to <InlineCode text="https://example.com"></InlineCode>.
 	</p>
 </div>
 
@@ -101,9 +102,6 @@ import Contents from "./Contents.svelte";
 		width: 550px;
 		max-width: 80%;
 		padding: 20px;
-	}
-	p {
-		font-size: 17px;
 	}
 	img {
 		width: 100%;
