@@ -27,6 +27,7 @@
 		margin-left: auto;
 		margin-right: auto;
 		width: 550px;
+		max-width: 80%;
 		padding: 20px;
 	}
 	p {
