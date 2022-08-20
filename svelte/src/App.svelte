@@ -3,6 +3,7 @@ import Header1 from "./Header1.svelte";
 import Header2 from "./Header2.svelte";
 import Contents from "./Contents.svelte";
 import InlineCode from "./InlineCode.svelte";
+import Header3 from "./Header3.svelte";
 </script>
 
 <div class="centraltext">
@@ -65,6 +66,7 @@ import InlineCode from "./InlineCode.svelte";
 		The popup will pre-fill the URL field with the URL of the current page.
 		So, you only have to fill out the Quick Link field.
 	</p>
+	<Header3 tag="other-ways-to-make-a-link" text="Other ways to make a link"></Header3>
 	<Header2 tag="using-a-link" text="Using a link"></Header2>
 	<p>
 		To use a link, just go to the URL bar and type
@@ -87,6 +89,13 @@ import InlineCode from "./InlineCode.svelte";
 		Pressing the enter key will submit the link.
 		In this case, we will be directed to <InlineCode text="https://example.com"></InlineCode>.
 	</p>
+	<Header2 tag="link-management" text="Link management"></Header2>
+	<Header3 tag="deleting-links" text="Deleting links"></Header3>
+	<Header3 tag="editing-links" text="Editing links"></Header3>
+	<Header2 tag="exporting-links" text="Exporting links"></Header2>
+	<Header2 tag="importing-links" text="Importing links"></Header2>
+	<Header2 tag="nuances" text="Nuances"></Header2>
+	<Header2 tag="source-code" text="Read the source code"></Header2>
 </div>
 
 <style>
