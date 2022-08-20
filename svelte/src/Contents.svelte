@@ -17,6 +17,7 @@
         <ContentsItem tag="deleting-links" text="Deleting links"></ContentsItem>
         <ContentsItem tag="editing-links" text="Editing links"></ContentsItem>
     </ol>
+    <ContentsItem  tag="dynamic-links" text="Dynamic Links"></ContentsItem>
     <ContentsItem tag="exporting-links" text="Exporting links"></ContentsItem>
     <ContentsItem tag="importing-links" text="Importing links"></ContentsItem>
     <ContentsItem tag="nuances" text="Nuances"></ContentsItem>

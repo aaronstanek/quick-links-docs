@@ -112,6 +112,7 @@ import Header3 from "./Header3.svelte";
 	<Header2 tag="link-management" text="Link management"></Header2>
 	<Header3 tag="deleting-links" text="Deleting links"></Header3>
 	<Header3 tag="editing-links" text="Editing links"></Header3>
+	<Header2 tag="dynamic-links" text="Dynamic Links"></Header2>
 	<Header2 tag="exporting-links" text="Exporting links"></Header2>
 	<Header2 tag="importing-links" text="Importing links"></Header2>
 	<Header2 tag="nuances" text="Nuances"></Header2>
