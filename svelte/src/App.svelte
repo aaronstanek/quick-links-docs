@@ -78,6 +78,7 @@ import Header3 from "./Header3.svelte";
 		then you will be prompted to create the link.
 		This is useful in cases where you expected a link to exist, but it hasn't
 		been registered yet. You will be prompted for the destination URL.
+		Upon success, you will be redirected to the <a href="#link-management">link management page</a>.
 	</p>
 	<p>
 		Links can be created from the <a href="#link-management">link management page</a>.
@@ -110,6 +111,20 @@ import Header3 from "./Header3.svelte";
 		In this case, we will be directed to <InlineCode text="https://example.com"></InlineCode>.
 	</p>
 	<Header2 tag="link-management" text="Link management"></Header2>
+	<p>
+		To delete or edit a link, you will have to access the link management page.
+		The fastest way to do this is to <a href="#using-a-link">use</a>
+		the preregistered link: <InlineCode text="links"></InlineCode>.
+	</p>
+	<img src="img/links.png" alt="Quick Links input context in URL bar with &quot;links&quot; input.">
+	<p>
+		The link management page can also be accessed from a link on the
+		top of the toolbar popup menu.
+	</p>
+	<p>
+		The link management page is show below.
+	</p>
+	<img src="img/main_empty.png" alt="The link management page with no links registered.">
 	<Header3 tag="deleting-links" text="Deleting links"></Header3>
 	<Header3 tag="editing-links" text="Editing links"></Header3>
 	<Header2 tag="dynamic-links" text="Dynamic Links"></Header2>
