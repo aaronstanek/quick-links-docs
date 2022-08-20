@@ -163,6 +163,22 @@ import Header3 from "./Header3.svelte";
 		someplace for later use.
 	</p>
 	<Header2 tag="importing-links" text="Importing links"></Header2>
+	<p>
+		Importing links into your browser is almost identical to <a href="#exporting-links">exporting</a>.
+	</p>
+	<p>
+		Use the preregistered link <InlineCode text="links/import"></InlineCode>
+		or click the link in the toolbar popup menu.
+	</p>
+	<img src="img/import_example.png" alt="The import page.">
+	<p>
+		Paste the JSON blob from the <a href="#exporting-links">export</a>
+		step into the text field. Then click <InlineCode text="IMPORT"></InlineCode>
+		or press enter.
+	</p>
+	<p>
+		Importing will delete all the links that were previously saved in your browser.
+	</p>
 	<Header2 tag="nuances" text="Nuances"></Header2>
 	<Header2 tag="source-code" text="Read the source code"></Header2>
 	<p>
