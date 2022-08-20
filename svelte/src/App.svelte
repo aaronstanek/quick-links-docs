@@ -126,7 +126,23 @@ import Header3 from "./Header3.svelte";
 	</p>
 	<img src="img/main_empty.png" alt="The link management page with no links registered.">
 	<Header3 tag="deleting-links" text="Deleting links"></Header3>
+	<p>
+		To delete a link, locate it in the table of links on the link management page.
+		Then click the trash can icon on the far right of the row of that link.
+	</p>
 	<Header3 tag="editing-links" text="Editing links"></Header3>
+	<p>
+		To edit a link, locate it in the table of links on the link management page.
+		Then click the pencil icon on the right of the row of that link.
+	</p>
+	<img src="img/edit_1.png" alt="The link management page with editing interface active.">
+	<p>
+		The second row of the image above shows the editing interface
+		which appears after the pencil icon is pressed.
+		Once you have updated the two text fields of the row to be what you want.
+		Click the checkmark icon, or press the enter key.
+		To discard changes, press the X icon on the far right.
+	</p>
 	<Header2 tag="dynamic-links" text="Dynamic Links"></Header2>
 	<Header2 tag="exporting-links" text="Exporting links"></Header2>
 	<Header2 tag="importing-links" text="Importing links"></Header2>
