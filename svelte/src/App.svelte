@@ -145,6 +145,23 @@ import Header3 from "./Header3.svelte";
 	</p>
 	<Header2 tag="dynamic-links" text="Dynamic Links"></Header2>
 	<Header2 tag="exporting-links" text="Exporting links"></Header2>
+	<p>
+		To export the links saved in your browser, either to back up,
+		or to transfer to another computer, <a href="#using-a-link">use</a>
+		the preregistered link <InlineCode text="links/export"></InlineCode>
+		or click the <InlineCode text="export"></InlineCode>
+		link in the toolbar popup menu.
+	</p>
+	<img src="img/export.png" alt="The export page.">
+	<p>
+		On the export page, all the links saved in your browser
+		are displayed as a JSON blob. You can either copy the text manually,
+		or click the <InlineCode text="Copy to clipboard"></InlineCode> button.
+	</p>
+	<p>
+		Once you have copied the JSON blob, either move it to another browser, or save it
+		someplace for later use.
+	</p>
 	<Header2 tag="importing-links" text="Importing links"></Header2>
 	<Header2 tag="nuances" text="Nuances"></Header2>
 	<Header2 tag="source-code" text="Read the source code"></Header2>
