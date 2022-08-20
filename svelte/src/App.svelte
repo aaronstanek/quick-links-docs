@@ -96,6 +96,14 @@ import Header3 from "./Header3.svelte";
 	<Header2 tag="importing-links" text="Importing links"></Header2>
 	<Header2 tag="nuances" text="Nuances"></Header2>
 	<Header2 tag="source-code" text="Read the source code"></Header2>
+	<p>
+		The source code for <i>Quick Links</i> is available
+		<a href="https://github.com/aaronstanek/quick_links_chrome">here</a>.
+	</p>
+	<p>
+		The source code for this documentaiton page is available
+		<a href="https://github.com/aaronstanek/quick-links-docs">here</a>.
+	</p>
 </div>
 
 <style>
