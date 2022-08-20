@@ -67,6 +67,26 @@ import Header3 from "./Header3.svelte";
 		So, you only have to fill out the Quick Link field.
 	</p>
 	<Header3 tag="other-ways-to-make-a-link" text="Other ways to make a link"></Header3>
+	<p>
+		There is a preregistered dymanic link for creating new links.
+		<InlineCode text="links/new/<quick-link-keyword>"></InlineCode>
+		This is useful if you have the destination URL copied to your clipboard, and
+		you only want to enter the Quick Link keyword.
+	</p>
+	<p>
+		If you <a href="#using-a-link">use a link</a> that hasn't been created yet,
+		then you will be prompted to create the link.
+		This is useful in cases where you expected a link to exist, but it hasn't
+		been registered yet. You will be prompted for the destination URL.
+	</p>
+	<p>
+		Links can be created from the <a href="#link-management">link management page</a>.
+	</p>
+	<p>
+		If you want to create a large number of links that already exist in another
+		instance of <i>Quick Links</i>, consider <a href="#exporting-links">exporting</a>
+		then <a href="#importing-links">importing</a> the links.
+	</p>
 	<Header2 tag="using-a-link" text="Using a link"></Header2>
 	<p>
 		To use a link, just go to the URL bar and type
