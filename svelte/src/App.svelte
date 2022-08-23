@@ -210,6 +210,9 @@ import Header3 from "./Header3.svelte";
 </div>
 
 <style>
+	div, img {
+		box-shadow: 0px 0px 3px black;
+	}
 	.centraltext {
 		border-style: solid;
 		border-width: 1px;
