@@ -72,14 +72,14 @@ import Header3 from "./Header3.svelte";
 	<p>
 		To create a new Quick Link,
 		just fill in the URL and Quick Link fields,
-		then press CREATE. It's that easy!
+		then press CREATE or tap the enter key. It's that easy!
 	</p>
 	<img src="img/popup_example_web.png" alt="The Quick Links popup menu. The URL field contains the string &quot;https://example.com&quot; and the Quick Link field contains the string &quot;coolwebsite&quot;.">
 	<p>
 		The example above will associate the keyword <InlineCode text="coolwebsite"></InlineCode>
 		with the webpage <InlineCode text="https://example.com"></InlineCode>.
 		So now you can go to <InlineCode text="https://example.com"></InlineCode>
-		by typing <InlineCode text="coolwebsite"></InlineCode> into your URL bar.
+		by typing <InlineCode text="go coolwebsite"></InlineCode> into your URL bar.
 	</p>
 	<p>
 		The popup will pre-fill the URL field with the URL of the current page.
@@ -88,7 +88,7 @@ import Header3 from "./Header3.svelte";
 	<Header3 tag="other-ways-to-make-a-link" text="Other ways to make a link"></Header3>
 	<p>
 		There is a preregistered dynamic link for creating new links.
-		<InlineCode text="links/new/<quick-link-keyword>"></InlineCode>
+		<InlineCode text="go links/new/<quick-link-keyword>"></InlineCode>
 		This is useful if you have the destination URL copied to your clipboard, and
 		you only want to enter the Quick Link keyword.
 	</p>
@@ -97,7 +97,6 @@ import Header3 from "./Header3.svelte";
 		then you will be prompted to create the link.
 		This is useful in cases where you expected a link to exist, but it hasn't
 		been registered yet. You will be prompted for the destination URL.
-		Upon success, you will be redirected to the <a href="#link-management">link management page</a>.
 	</p>
 	<p>
 		Links can be created from the <a href="#link-management">link management page</a>.
@@ -139,8 +138,6 @@ import Header3 from "./Header3.svelte";
 	<p>
 		The link management page can also be accessed from a link on the
 		top of the toolbar popup menu.
-	</p>
-	<p>
 		The link management page is show below.
 	</p>
 	<img src="img/main_empty_web.png" alt="The link management page with no links registered.">
