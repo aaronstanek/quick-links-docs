@@ -276,6 +276,19 @@ import Header3 from "./Header3.svelte";
 			links/import
 		</p></li>
 	</ul>
+	<Header3 tag="characters-in-quick-link" text="Characters in a Quick Link"></Header3>
+	<p>
+		It is expected that, for speed-of-typing,
+		a Quick Link will contain only the characters <InlineCode text="[a-z]"></InlineCode>
+		and <InlineCode text="[0-9]"></InlineCode>, with <InlineCode text="/"></InlineCode>
+		to separate logical sections of a keyword and <InlineCode text="%"></InlineCode>
+		to indicate variables.
+	</p>
+	<p>
+		This is not a hard restriction, and it is permitted to use characters beyond these,
+		however a warning will be raised when a user registers a Quick Link
+		containing characters outside these ranges.
+	</p>
 	<Header2 tag="source-code" text="Read the source code"></Header2>
 	<p>
 		The source code for Quick Links is available
