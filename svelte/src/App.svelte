@@ -8,6 +8,9 @@ import Header3 from "./Header3.svelte";
 
 <div class="centraltext">
 	<Header1 tag="quick-links" text="Quick Links"></Header1>
+	<p class="it">
+		The better bookmarks bar!
+	</p>
 	<p>
 		The <i>Quick Links</i> browser extension allows you to rapidly access
 		previously visited webpages without needing to dig through your
@@ -204,6 +207,9 @@ import Header3 from "./Header3.svelte";
 		width: 550px;
 		max-width: 80%;
 		padding: 20px;
+	}
+	.it {
+		font-style: italic;
 	}
 	img {
 		width: 100%;
