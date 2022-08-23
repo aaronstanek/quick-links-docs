@@ -87,7 +87,7 @@ import Header3 from "./Header3.svelte";
 	</p>
 	<Header3 tag="other-ways-to-make-a-link" text="Other ways to make a link"></Header3>
 	<p>
-		There is a preregistered dymanic link for creating new links.
+		There is a preregistered dynamic link for creating new links.
 		<InlineCode text="links/new/<quick-link-keyword>"></InlineCode>
 		This is useful if you have the destination URL copied to your clipboard, and
 		you only want to enter the Quick Link keyword.
@@ -163,6 +163,48 @@ import Header3 from "./Header3.svelte";
 		To discard changes, press the X icon on the far right.
 	</p>
 	<Header2 tag="dynamic-links" text="Dynamic Links"></Header2>
+	<p>
+		Dynamic links are a feature not possible with regular bookmarks.
+		A dynamic link is a template which can be reused
+		to link many Quick Link keywords to many URLs.
+	</p>
+	<p>
+		For example, if you wanted to create a link to every article on the
+		English-language Wikipedia, you could register a Quick Link
+		<InlineCode text="wiki/"></InlineCode><InlineCode text="%X1" color="red"></InlineCode>
+		pointing to URLs of the form
+		<InlineCode text="https://en.wikipedia.org/wiki/"></InlineCode><InlineCode text="%X1" color="red"></InlineCode>,
+		where <InlineCode text="%X1" color="red"></InlineCode> is a variable to
+		be resolved when the link is used.
+	</p>
+	<p>
+		So, the keyword <InlineCode text="wiki/potato"></InlineCode> would take you to the Wikipedia
+		article about potatoes, and <InlineCode text="wiki/sun"></InlineCode> would take
+		you to the Wikipedia article about the Sun, etc...
+	</p>
+	<img src="img/main_example_4_web.png" alt="The link management page with &quot;wiki/%X1&quot; in the Quick Link input and &quot;https://en.wikipedia.org/wiki/%X1&quot; in the URL input.">
+	<p>
+		You can even use multiple variables!
+		Each variable takes the form <InlineCode text="%X[0-9]"></InlineCode>.
+		The set of variables used in the Quick Link and in the URL must match,
+		but do not need to appear in the same order.
+		A Quick Link may not contain more than one instance of a given variable.
+		Variables may appear multiple times in a URL.
+	</p>
+	<p>
+		For performance reasons, the placement of variables in a Quick Link
+		is restricted. Each variable must be preceded by a <InlineCode text="/"></InlineCode>
+		character, and may only be followed by another variable (preceded by a <InlineCode text="/"></InlineCode>)
+		or the end of the Quick Link.
+		So,
+		<InlineCode text="example/"></InlineCode><InlineCode text="%X1" color="red"></InlineCode><InlineCode text="/"></InlineCode><InlineCode text="%X2" color="red"></InlineCode>
+		is well formatted. But
+		<InlineCode text="example/"></InlineCode><InlineCode text="%X1%X2" color="red"></InlineCode>,
+		<InlineCode text="example/"></InlineCode><InlineCode text="%X1" color="red"></InlineCode><InlineCode text="/"></InlineCode><InlineCode text="%X2" color="red"></InlineCode><InlineCode text="/text"></InlineCode>,
+		<InlineCode text="example/"></InlineCode><InlineCode text="%X1" color="red"></InlineCode><InlineCode text="/text/"></InlineCode><InlineCode text="%X2" color="red"></InlineCode>, and
+		<InlineCode text="%X1" color="red"></InlineCode><InlineCode text="/example/"></InlineCode><InlineCode text="%X2" color="red"></InlineCode>
+		will all be rejected.
+	</p>
 	<Header2 tag="exporting-links" text="Exporting links"></Header2>
 	<p>
 		To export the links saved in your browser, either to back up,
@@ -204,7 +246,7 @@ import Header3 from "./Header3.svelte";
 		<a href="https://github.com/aaronstanek/quick_links_chrome">here</a>.
 	</p>
 	<p>
-		The source code for this documentaiton page is available
+		The source code for this documentation page is available
 		<a href="https://github.com/aaronstanek/quick-links-docs">here</a>.
 	</p>
 </div>
