@@ -240,6 +240,7 @@ import Header3 from "./Header3.svelte";
 	<p>
 		Importing will delete all the links that were previously saved in your browser.
 	</p>
+	<Header2 tag="nuances" text="Nuances"></Header2>
 	<Header2 tag="source-code" text="Read the source code"></Header2>
 	<p>
 		The source code for Quick Links is available
