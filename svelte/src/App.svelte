@@ -64,7 +64,7 @@ import Header3 from "./Header3.svelte";
 		If you click it and select "Quick Links", a popup like the one
 		depicted below will appear.
 	</p>
-	<img src="img/popup_empty.png" alt="The Quick Links popup menu. The input fields are empty.">
+	<img src="img/popup_empty_web.png" alt="The Quick Links popup menu. The input fields are empty.">
 	<p>
 		Tip: for faster access in the future, you can pin the Quick Links
 		icon to the toolbar using the pin icon in the puzzle piece icon's dropdown menu.
@@ -74,7 +74,7 @@ import Header3 from "./Header3.svelte";
 		just fill in the URL and Quick Link fields,
 		then press CREATE. It's that easy!
 	</p>
-	<img src="img/popup_example.png" alt="The Quick Links popup menu. The URL field contains the string &quot;https://example.com&quot; and the Quick Link field contains the string &quot;coolwebsite&quot;.">
+	<img src="img/popup_example_web.png" alt="The Quick Links popup menu. The URL field contains the string &quot;https://example.com&quot; and the Quick Link field contains the string &quot;coolwebsite&quot;.">
 	<p>
 		The example above will associate the keyword <InlineCode text="coolwebsite"></InlineCode>
 		with the webpage <InlineCode text="https://example.com"></InlineCode>.
@@ -112,19 +112,19 @@ import Header3 from "./Header3.svelte";
 		To use a link, just go to the URL bar and type
 		the word <InlineCode text="go"></InlineCode> followed by a single space, as seen below.
 	</p>
-	<img src="img/go.png" alt="URL bar with the word &quot;go&quot; and then a space.">
+	<img src="img/go_web.png" alt="URL bar with the word &quot;go&quot; and then a space.">
 	<p>
 		As soon as you type the space, the Quick Links input context will be displayed.
 		This lets you know that you are entering a Quick Link and not a URL or a
 		web search query.
 	</p>
-	<img src="img/quick_links.png" alt="URL bar with Quick Links input context.">
+	<img src="img/quick_links_web.png" alt="URL bar with Quick Links input context.">
 	<p>
 		Then we just enter the Quick Link keyword that we registered earlier.
 		If we wanted to use the link created in the <a href="#making-a-new-link">Making a new link</a> section,
 		we would type <InlineCode text="coolwebsite"></InlineCode>, as seen below.
 	</p>
-	<img src="img/coolwebsite.png" alt="URL bar with Quick Links input context. &quot;coolwebsite&quot; has been input.">
+	<img src="img/coolwebsite_web.png" alt="URL bar with Quick Links input context. &quot;coolwebsite&quot; has been input.">
 	<p>
 		Pressing the enter key will submit the link.
 		In this case, we will be directed to <InlineCode text="https://example.com"></InlineCode>.
@@ -135,7 +135,7 @@ import Header3 from "./Header3.svelte";
 		The fastest way to do this is to <a href="#using-a-link">use</a>
 		the preregistered link: <InlineCode text="links"></InlineCode>.
 	</p>
-	<img src="img/links.png" alt="Quick Links input context in URL bar with &quot;links&quot; input.">
+	<img src="img/links_web.png" alt="Quick Links input context in URL bar with &quot;links&quot; input.">
 	<p>
 		The link management page can also be accessed from a link on the
 		top of the toolbar popup menu.
