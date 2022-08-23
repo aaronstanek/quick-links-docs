@@ -12,7 +12,7 @@ import Header3 from "./Header3.svelte";
 		The better bookmarks bar!
 	</p>
 	<p>
-		The <i>Quick Links</i> browser extension allows you to rapidly access
+		The Quick Links browser extension allows you to rapidly access
 		previously visited webpages without needing to dig through your
 		browser history or bookmarks bar.
 	</p>
@@ -29,7 +29,7 @@ import Header3 from "./Header3.svelte";
 		</a>
 	</p>
 	<p>
-		<i>Quick Links</i> is known to be compatible with the desktop
+		Quick Links is known to be compatible with the desktop
 		editions of Google Chrome, Microsoft Edge, Opera, and Brave.
 		It also works on the Kiwi browser for Android, although the user
 		experience is still being improved for this platform.
@@ -39,7 +39,7 @@ import Header3 from "./Header3.svelte";
 	<p>
 		The extension could not be installed on Firefox version <InlineCode text="103.0.2"></InlineCode>,
 		but future versions of Firefox may support it.
-		<i>Quick Links</i> cannot be installed on Safari;
+		Quick Links cannot be installed on Safari;
 		there are no plans to change this.
 	</p>
 	<Header2 tag="making-a-new-link" text="Making a new link"></Header2>
@@ -50,7 +50,7 @@ import Header3 from "./Header3.svelte";
 	</p>
 	<img src="img/popup_empty.png" alt="The Quick Links popup menu. The input fields are empty.">
 	<p>
-		Tip: for faster access in the future, you can pin the <i>Quick Links</i>
+		Tip: for faster access in the future, you can pin the Quick Links
 		icon to the toolbar using the pin icon in the puzzle piece icon's dropdown menu.
 	</p>
 	<p>
@@ -88,7 +88,7 @@ import Header3 from "./Header3.svelte";
 	</p>
 	<p>
 		If you want to create a large number of links that already exist in another
-		instance of <i>Quick Links</i>, consider <a href="#exporting-links">exporting</a>
+		instance of Quick Links, consider <a href="#exporting-links">exporting</a>
 		then <a href="#importing-links">importing</a> the links.
 	</p>
 	<Header2 tag="using-a-link" text="Using a link"></Header2>
@@ -185,7 +185,7 @@ import Header3 from "./Header3.svelte";
 	<Header2 tag="nuances" text="Nuances"></Header2>
 	<Header2 tag="source-code" text="Read the source code"></Header2>
 	<p>
-		The source code for <i>Quick Links</i> is available
+		The source code for Quick Links is available
 		<a href="https://github.com/aaronstanek/quick_links_chrome">here</a>.
 	</p>
 	<p>
