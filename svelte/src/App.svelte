@@ -143,7 +143,7 @@ import Header3 from "./Header3.svelte";
 	<p>
 		The link management page is show below.
 	</p>
-	<img src="img/main_empty.png" alt="The link management page with no links registered.">
+	<img src="img/main_empty_web.png" alt="The link management page with no links registered.">
 	<Header3 tag="deleting-links" text="Deleting links"></Header3>
 	<p>
 		To delete a link, locate it in the table of links on the link management page.
@@ -154,7 +154,7 @@ import Header3 from "./Header3.svelte";
 		To edit a link, locate it in the table of links on the link management page.
 		Then click the pencil icon on the right of the row of that link.
 	</p>
-	<img src="img/edit_1.png" alt="The link management page with editing interface active.">
+	<img src="img/edit_1_web.png" alt="The link management page with editing interface active.">
 	<p>
 		The second row of the image above shows the editing interface
 		which appears after the pencil icon is pressed.
@@ -171,7 +171,7 @@ import Header3 from "./Header3.svelte";
 		or click the <InlineCode text="export"></InlineCode>
 		link in the toolbar popup menu.
 	</p>
-	<img src="img/export.png" alt="The export page.">
+	<img src="img/export_web.png" alt="The export page.">
 	<p>
 		On the export page, all the links saved in your browser
 		are displayed as a JSON blob. You can either copy the text manually,
@@ -189,7 +189,7 @@ import Header3 from "./Header3.svelte";
 		Use the preregistered link <InlineCode text="links/import"></InlineCode>
 		or click the link in the toolbar popup menu.
 	</p>
-	<img src="img/import_example.png" alt="The import page.">
+	<img src="img/import_example_web.png" alt="The import page.">
 	<p>
 		Paste the JSON blob from the <a href="#exporting-links">export</a>
 		step into the text field. Then click <InlineCode text="IMPORT"></InlineCode>
